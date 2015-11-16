@@ -26,7 +26,7 @@
     <div id="page-wrapper">
 
         <!-- Header -->
-        <div id="header">
+        <div id="header" data-velocity=".8">
 
             <!-- Inner -->
             <div class="inner">
@@ -188,7 +188,7 @@
         </div>
 
         <!-- Features -->
-        <div id= "extras" class="wrapper style1">
+        <div id="extras" class="wrapper style1">
 
             <section id="extras" class="container special">
                 <header>
@@ -231,9 +231,41 @@
         <!-- Footer -->
         <div id="footer">
             <div class="container">
+                <header>
+                    <h2>Contact Me</h2>
+                </header>
+                <form>
+                    <div class="row 50%">
+                        <div class="6u 12u(mobile)">
+                            <input type="text" name="name" placeholder="Name" />
+                        </div>
+                        <div class="6u 12u(mobile)">
+                            <input type="text" name="email" placeholder="Email" />
+                        </div>
+                    </div>
+                    <div class="row 50%">
+                        <div class="12u">
+                            <input type="text" name="subject" placeholder="Subject" />
+                        </div>
+                    </div>
+                    <div class="row 50%">
+                        <div class="12u">
+                            <textarea name="message" placeholder="Message" rows="7"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="12u">
+                            <ul class="buttons">
+                                <li>
+                                    <input type="submit" class="special" value="Send Message" />
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </form>
+                <!--
                 <div class="row">
 
-                    <!-- Tweets -->
                     <section class="6u 12u(mobile)">
                         <header>
                             <h2 class="icon fa-twitter circled"><span class="label">Tweets</span></h2>
@@ -267,8 +299,6 @@
                     </section>
 
 
-                    <!-- Posts -->
-                    <!--
                     <section class="4u 12u(mobile)">
                         <header>
                             <h2 class="icon fa-file circled"><span class="label">Posts</span></h2>
@@ -308,8 +338,6 @@
                             </li>
                         </ul>
                     </section>
--->
-                    <!-- Photos -->
                     <section class="6u 12u(mobile)">
                         <header>
                             <h2 class="icon fa-camera circled"><span class="label">Photos</span></h2>
@@ -337,6 +365,7 @@
                     </section>
 
                 </div>
+-->
                 <hr />
                 <div class="row">
                     <div class="12u">
